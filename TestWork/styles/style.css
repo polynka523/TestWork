@@ -1,0 +1,128 @@
+body {
+    background-color: #222222;
+    font-family: 'Prata', serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin-left: 186px;
+    
+}
+
+.header {
+    display: flex;
+    margin-top: 49px;
+    justify-content: space-around;
+}
+
+.Logo {
+    color:white;
+    text-decoration: none;
+    
+    font-weight: 400;
+    font-size: 36px;
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-menu {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+
+    font-family: 'Arial',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 23.5px;
+    padding-bottom: 23.5px;
+}
+
+.header-menu:hover {
+    color: crimson;
+}
+
+.header-text {
+    margin-top: 94px;
+    padding-top: 80px
+}
+
+.upper-text {
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+
+
+}
+
+.line {
+    color: white;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 15px;
+    
+
+}
+
+.photo-container {
+    width: 30%;
+}
+
+.btn {
+    margin-top: 20px;
+    padding:20px 10px 20px 20px;
+    background-color: white;
+    width: 10%;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.btn:hover {
+    background-color: rgb(195, 195, 195);
+}
+
+.btn-txt {
+    text-decoration: none;
+    color: black;
+}
+
+.pluses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border: solid #2d2c2c;
+}
+
+.pluses-line {
+    color: white;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.order-btn {
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 50px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.order-btn:hover {
+    background-color: rgb(195, 195, 195);
+}
