@@ -126,3 +126,74 @@ body {
 .order-btn:hover {
     background-color: rgb(195, 195, 195);
 }
+
+.form-div {
+    margin-top: 100px;
+    margin-left: 162px;
+    margin-right: 162px;
+    background-image: url(../img/8-8\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 134px;
+    padding-top: 73px ;
+    padding-bottom: 72px;
+    border-radius: 35px;
+    position: relative;
+}
+
+.form-left {
+    margin-top: 73px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.form-upper-text {
+    font-family: 'Prata',serif;
+    font-weight: 400;
+    font-size: 54px;
+    color: #38535D;
+    margin-top: 73px;
+    
+}
+
+.input {
+    width: 30%;
+    height: 44px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 20px;
+}
+
+.register {
+    margin-top: 20px;
+    width: 30%;
+    
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 20px 20px 20px;
+}
+
+.register:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+.women {
+    position: absolute;
+    height: 50%;
+    top: -134px;
+    right: 130px;
+}
